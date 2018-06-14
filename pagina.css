@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Basic');
+
+
+
+
+img.capotitolo{
+  width:60%;
+  position: fixed;
+  margin-left: 55vw;
+  transform: translate(-50%);
+
+}
+
+
+
+div.menù{
+  position: fixed;
+  top: -17vh;
+  left: 0px;
+  margin-top: 17vh;
+  height: 100vh;
+  width: 17vw;
+  border-right: 5px solid white;
+  background-color:  #5291EF;
+
+
+}
+
+a.menù {
+    color: black;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 15pt;
+    font-family: 'Basic', sans-serif;
+    text-transform: uppercase;
+    transform: translateX(-30px);
+
+}
+
+.menù a:hover {
+    text-decoration: overline;
+}
+
+.menù a.active {
+      text-decoration: overline;
+
+
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color:  #E0F1FF;
+
+}
+
+
+div.paragrafo{
+  position: absolute;
+  left:25vw;
+  top: 17vh;
+  margin-right: 10vw;
+  height: 80vh;
+  overflow: auto;
+  }
+
+h2{
+      font-family: 'Basic', sans-serif;
+      font-size: 25pt;
+      text-transform: uppercase;
+  }
+
+h3{
+  font-family: 'Basic', sans-serif;
+  font-size: 20pt;
+  text-transform: uppercase;
+}
+
+h4{
+  font-family: 'Basic', sans-serif;
+  font-size: 15pt;
+  text-transform: uppercase;
+}
+
+.homepage1{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  font-size: 20pt;
+  font-family: 'Basic', sans-serif;
+
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a.testa{
+  text-decoration: none;
+  color: white;
+}
+
+.homepage{
+  position: fixed;
+  top: 0vh;
+  left:0vw;
+  width: 100%;
+}
+
+img.gallery {
+
+  margin top: 10px;
+  margin right: 10px;
+  margin bottom: 10px;
+  width: 30%;
+
+
+}
+
+
+img.gallery:hover {
+
+border: 5px solid #5291EF;
+
+
+
+}
+
+
+div.quadrato{
+  display: inline;
+  float: none;
+  height: 30vh;
+
+}
